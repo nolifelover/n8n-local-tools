@@ -1,0 +1,49 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Docker volumes
+docker/data/
+volumes/
+datas/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Build output
+dist/
+build/
+out/
+
+# Coverage directory
+coverage/
+
+# Cache directories
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+
+# System Files
+.DS_Store
+Thumbs.db 
